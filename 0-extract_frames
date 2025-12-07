@@ -1,0 +1,1 @@
+~/ffmpeg/ffmpeg -i 75553-556034424_tiny.mp4 -vf "fps=24" frames/frame_%05d.png

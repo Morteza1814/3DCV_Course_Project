@@ -1,0 +1,1 @@
+~/ffmpeg/ffmpeg -y -r 24 -f image2 -i novel_frames/nv_%05d.png   -c:v libx264 -pix_fmt yuv420p -movflags +faststart novel_view.mp4

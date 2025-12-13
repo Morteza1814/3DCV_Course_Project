@@ -1,5 +1,5 @@
-cd ~/GIT/3d_proj
-python - <<'PY'
+cd /p/lava/morteza/3d_proj
+python3 - <<'PY'
 import os, glob, cv2, torch, numpy as np
 
 # Load MiDaS Hybrid (good quality; OK on CPU)
@@ -10,8 +10,8 @@ transform = transforms.dpt_transform
 device = torch.device("cpu")
 midas.eval().to(device)
 
-in_dir = "frames"
-out_dir = "depth"
+in_dir = "Frames/babywalk1"
+out_dir = "Depth/babywalk1"
 os.makedirs(out_dir, exist_ok=True)
 
 frames = sorted(glob.glob(os.path.join(in_dir, "*.*")))

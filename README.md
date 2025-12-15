@@ -7,7 +7,7 @@ A training-free baseline for reconstructing dynamic 3D (4D) scenes from a single
 | ![Novel View DA](videoes/dynamic_3d/novel_view_da.gif) | ![Novel View MV](videoes/dynamic_3d/novel_view_mv.gif) |
 | *Single-Frame Depth (DA-V2)*                                  | *Temporal Multi-Frame (DA-V2)*
 ## Approach #2: Using a 3D-object Generator
-| [Original](fast/assets/input.gif) | ![4D](fast/spins_test/walking_spin_before_smoothing.gif) |
+| ![Original](fast/assets/input.gif) | ![4D](fast/spins_test/walking_spin_before_smoothing.gif) |
 |----------------------------------------------|--------------------------------------------------------|
 | *Original Video*                                  | *After 4D Reconstruction*                                            |
 
